@@ -277,12 +277,13 @@ footer a {
     margin-bottom: -20px;
     padding-top: 10px;
 }
+
 .stars {
-	padding-top: 30px;
-	color: rgb(56, 163, 77);
-	text-align: center;
-	font-size: 40px;
-	letter-spacing: 5px;
+    padding-top: 30px;
+    color: rgb(56, 163, 77);
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
 
 }
 
@@ -667,7 +668,7 @@ footer a {
     background-size: cover;
     background-image: url(../images/oberst.jpg);
     background-position: center;
-	
+
 }
 
 #enigmaimg {
@@ -850,7 +851,7 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Merriweather Sans', sans-serif;
-	cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1322,6 +1323,120 @@ textarea {
 
 /*------TABLET-------*/
 
+@media (min-width:768px) and (max-width:1024px) {
+
+    /*-----FORSIDE-----*/
+
+    #bookingknap a {
+        margin-top: 200px;
+    }
+
+    .landingbox h1 {
+        margin-top: 100px;
+    }
+
+    .landingbox h2 {
+        margin-top: 100px;
+    }
+
+    #testimonial-tekstur {
+        height: 400px;
+    }
+
+    .marmorbox p {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .roedbox {
+        height: 820px;
+    }
+
+    .pris-box {
+        margin-left: 35%;
+        width: 30%;
+    }
+
+    /*-----FORSIDE SLUT-----*/
+
+    /*-----VORES RUM-----*/
+    
+    #marmor-baggrund-rum {
+        height: 1630px;
+    }
+
+    .sub-section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .rum-margin {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #alkymistimg {
+        height: 400px;
+    }
+
+    #enigmaimg {
+        height: 400px;
+    }
+    
+    #oberstimg {
+        height: 400px;
+    }
+    
+    .tekstonimg {
+        font-size: 30px;
+    }
+    
+    #myBtn {
+        font-size: 20px;
+        width: 30%;
+    }
+    
+    #minknap1 {
+        font-size: 20px;
+        width: 30%;
+    }
+    
+    #minknap {
+        font-size: 20px;
+        width: 30%;
+    }
+    
+    .modal {
+        margin-top: 70px;
+    }
+    
+    .modal1 {
+        margin-top: 70px;
+    }
+    
+    .modal2 {
+        margin-top: 70px;
+    }
+
+    /*-----VORES RUM SLUT-----*/
+    
+    /*-----TEAMBUILDING-----*/
+    
+    .wrapper-bokse h3 {
+        margin-top: -20px;
+    }
+    
+    .bookingknap-teambuilding {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .fulde-udbytte {
+        height: 550px;
+    }
+    
+    /*-----TEAMBUILDING SLUT-----*/
+}
 
 /* ----- DESKTOP ----- */
 
@@ -1695,10 +1810,10 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         top: 170px;
     }
 
-	.stars {
-		padding-top: 40px;
-	}
-	
+    .stars {
+        padding-top: 40px;
+    }
+
 
     #tripadvisor {
         width: 15%;
@@ -1737,13 +1852,13 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         margin-top: 50px;
         display: flex;
         justify-content: space-around;
-		
+
     }
 
     .rum-margin {
         margin-left: 10%;
         margin-right: 10%;
-		
+
     }
 
     .tekstonimg1 {
@@ -1753,7 +1868,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
-		cursor: pointer;
+        cursor: pointer;
     }
 
     .modal-content,
@@ -1767,31 +1882,31 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .content-billede {
         width: 50%;
         margin-left: 25%;
-		
+
     }
 
     .detrerum img {
         width: 100%;
-		cursor: pointer;
+        cursor: pointer;
     }
 
     #oberstimg {
         width: 299px;
         height: 411px;
-		cursor: pointer;
-		
+        cursor: pointer;
+
     }
 
     #enigmaimg {
         width: 299px;
         height: 411px;
-		cursor: pointer;
+        cursor: pointer;
     }
 
     #alkymistimg {
         width: 299px;
         height: 411px;
-		cursor: pointer;
+        cursor: pointer;
     }
 
     /*billede inde i modal box*/
@@ -1861,13 +1976,6 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .teambuilding-tekstafsnit {
         padding: 0% 15% 0% 15%;
-    }
-
-
-    .fulde-udbytte {
-        padding-right: 25%;
-        padding-left: 25%;
-        height: 570px;
     }
 
     .fulde-udbytte h2 {
