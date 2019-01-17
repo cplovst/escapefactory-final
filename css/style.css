@@ -1285,7 +1285,7 @@ textarea {
 
 
 /*-------MOBILE------*/
-@media (max-width:780px) {
+@media (max-width: 767px) {
 
     .detrerum img {
         padding: 4%;
